@@ -1,0 +1,556 @@
+[
+  {
+    "id": "poem_hath-hain-mere-chhote-chhote_ctkkx2",
+    "title": "हाथ हैं मेरे छोटे-छोटे",
+    "urlTitle": "hath-hain-mere-chhote-chhote",
+    "text": "हाथ हैं मेरे छोटे-छोटे,\nकाम करूँ मैं बड़े-बड़े।",
+    "shortSummary": "A short two-line rhyme expressing how small children can accomplish great things with their little hands.",
+    "tags": [
+      "children",
+      "action",
+      "rhyme"
+    ],
+    "language": "Hindi",
+    "status": "draft",
+    "writer": "एकलव्‍य",
+    "sourceType": "textbook",
+    "education": {
+      "grade": "Class 1",
+      "board": "NCERT",
+      "bookName": "Sarangi",
+      "year": 2026
+    },
+    "media": {
+      "audioUrl": null,
+      "videoUrl": null,
+      "thumbnailUrl": null
+    },
+    "metadata": {
+      "extractedVia": "Gemini_3.1_Pro",
+      "poemPdfPath": "/uploads/poem_hath-hain-mere-chhote-chhote_ctkkx2.pdf",
+      "sourcePageRange": "5-5",
+      "sourceFile": "ahsr103.pdf"
+    },
+    "uiColor": "#9f8fba"
+  },
+  {
+    "id": "poem_eekh-khet-mein-boli_8mviib",
+    "title": "ईख खेत में बोली",
+    "urlTitle": "eekh-khet-mein-boli",
+    "text": "ईख खेत में बोली,\nअपने पास वाली ईख से;\nमेरे ऊपर क्यों गिरती हो,\nखड़ी रहो ना ठीक से!",
+    "shortSummary": "A playful poem where a sugarcane plant complains to its neighbor to stand up straight and stop falling on it.",
+    "tags": [
+      "nature",
+      "plants",
+      "sugarcane"
+    ],
+    "language": "Hindi",
+    "status": "draft",
+    "writer": "प्रभात",
+    "sourceType": "textbook",
+    "education": {
+      "grade": "Class 1",
+      "board": "NCERT",
+      "bookName": "Sarangi",
+      "year": 2026
+    },
+    "media": {
+      "audioUrl": null,
+      "videoUrl": null,
+      "thumbnailUrl": null
+    },
+    "metadata": {
+      "extractedVia": "Gemini_3.1_Pro",
+      "poemPdfPath": "/uploads/poem_eekh-khet-mein-boli_8mviib.pdf",
+      "sourcePageRange": "6-6",
+      "sourceFile": "ahsr105.pdf"
+    },
+    "uiColor": "#5ab735"
+  },
+  {
+    "id": "poem_imli-ki-daal-par_i9n0gw",
+    "title": "इमली की डाल पर",
+    "urlTitle": "imli-ki-daal-par",
+    "text": "इमली की डाल पर,\nबैठी थी चिड़िया;\nखा रही थी इमली,\nदेख रही थी मुनिया।",
+    "shortSummary": "A short, rhyming poem about a little girl observing a bird eating from a tamarind tree.",
+    "tags": [
+      "birds",
+      "nature",
+      "observation"
+    ],
+    "language": "Hindi",
+    "status": "draft",
+    "writer": "Unknown",
+    "sourceType": "textbook",
+    "education": {
+      "grade": "Class 1",
+      "board": "NCERT",
+      "bookName": "Sarangi",
+      "year": 2026
+    },
+    "media": {
+      "audioUrl": null,
+      "videoUrl": null,
+      "thumbnailUrl": null
+    },
+    "metadata": {
+      "extractedVia": "Gemini_3.1_Pro",
+      "poemPdfPath": "/uploads/poem_imli-ki-daal-par_i9n0gw.pdf",
+      "sourcePageRange": "6-6",
+      "sourceFile": "ahsr105.pdf"
+    },
+    "uiColor": "#e74fe3"
+  },
+  {
+    "id": "poem_kuch-oont-ooncha_479lj8",
+    "title": "कुछ ऊँट ऊँचा",
+    "urlTitle": "kuch-oont-ooncha",
+    "text": "कुछ ऊँट ऊँचा,\nकुछ पूँछ ऊँची;\nकुछ ऊँचे ऊँट की,\nपीठ ऊँची।",
+    "shortSummary": "A short and fun Hindi tongue-twister describing a tall camel with a high back and tail.",
+    "tags": [
+      "camel",
+      "tongue-twister",
+      "rhyme",
+      "animals"
+    ],
+    "language": "Hindi",
+    "status": "draft",
+    "writer": "Unknown",
+    "sourceType": "textbook",
+    "education": {
+      "grade": "Class 1",
+      "board": "NCERT",
+      "bookName": "Sarangi",
+      "year": 2026
+    },
+    "media": {
+      "audioUrl": null,
+      "videoUrl": null,
+      "thumbnailUrl": null
+    },
+    "metadata": {
+      "extractedVia": "Gemini_3.1_Pro",
+      "poemPdfPath": "/uploads/poem_kuch-oont-ooncha_479lj8.pdf",
+      "sourcePageRange": "8-8",
+      "sourceFile": "ahsr106.pdf"
+    },
+    "uiColor": "#d58e30"
+  },
+  {
+    "id": "poem_ek-the-bhai-khat_on2zo8",
+    "title": "एक थे भाई खट",
+    "urlTitle": "ek-the-bhai-khat",
+    "text": "एक थे भाई खट,\nएक थे भाई पट।\nपाई एक मटर,\nदोनों दौड़े झट।\nआधी खाए खट,\nआधी खाए पट।\nवो देखो खट पट,\nसोये हैं सट सट।",
+    "shortSummary": "A funny short rhyme about two rat brothers, Khat and Pat, who find a pea, share it equally, and promptly fall asleep.",
+    "tags": [
+      "animals",
+      "rhyme",
+      "funny",
+      "sharing"
+    ],
+    "language": "Hindi",
+    "status": "draft",
+    "writer": "सुशील शुक्ल",
+    "sourceType": "textbook",
+    "education": {
+      "grade": "Class 1",
+      "board": "NCERT",
+      "bookName": "Sarangi",
+      "year": 2026
+    },
+    "media": {
+      "audioUrl": null,
+      "videoUrl": null,
+      "thumbnailUrl": null
+    },
+    "metadata": {
+      "extractedVia": "Gemini_3.1_Pro",
+      "poemPdfPath": "/uploads/poem_ek-the-bhai-khat_on2zo8.pdf",
+      "sourcePageRange": "4-4",
+      "sourceFile": "ahsr110.pdf"
+    },
+    "uiColor": "#29fcf"
+  },
+  {
+    "id": "poem_roti-agar-gol-na-bane_2hj3m5",
+    "title": "रोटी अगर गोल न बने",
+    "urlTitle": "roti-agar-gol-na-bane",
+    "text": "रोटी अगर गोल न बने,\nबन जाए कहीं का नक्शा,\nनक्शे को फिर कैसे तपाऊँ,\nनक्शे को फिर कैसे पकाऊँ!\nतो फिर इसका क्या करूँ,\nगोल बना लूँ पृथ्वी जैसी,\nया उस देश को डाक से भेजूँ,\nबन गया है जहाँ का नक्शा?",
+    "shortSummary": "A child playfully wonders what to do if a homemade roti ends up looking like a map instead of being perfectly round.",
+    "tags": [
+      "food",
+      "imagination",
+      "humor",
+      "children"
+    ],
+    "language": "Hindi",
+    "status": "draft",
+    "writer": "मनोज कुमार झा",
+    "sourceType": "textbook",
+    "education": {
+      "grade": "Class 1",
+      "board": "NCERT",
+      "bookName": "Sarangi",
+      "year": 2026
+    },
+    "media": {
+      "audioUrl": null,
+      "videoUrl": null,
+      "thumbnailUrl": null
+    },
+    "metadata": {
+      "extractedVia": "Gemini_3.1_Pro",
+      "poemPdfPath": "/uploads/poem_roti-agar-gol-na-bane_2hj3m5.pdf",
+      "sourcePageRange": "3-3",
+      "sourceFile": "ahsr112.pdf"
+    },
+    "uiColor": "#8da713"
+  },
+  {
+    "id": "poem_band-rahega_f5685f",
+    "title": "बंद रहेगा",
+    "urlTitle": "band-rahega",
+    "text": "घर के बाहर जब जाते हैं,\nलटकाते दरवाज़े पर,\nअगर नहीं खोलें हम इसको,\nबंद रहेगा पूरा घर।",
+    "shortSummary": "A poetic riddle about a lock used to keep the house safe when going outside.",
+    "tags": [
+      "riddle",
+      "lock",
+      "house",
+      "rhyme"
+    ],
+    "language": "Hindi",
+    "status": "draft",
+    "writer": "श्रीप्रसाद",
+    "sourceType": "textbook",
+    "education": {
+      "grade": "Class 1",
+      "board": "NCERT",
+      "bookName": "Sarangi",
+      "year": 2026
+    },
+    "media": {
+      "audioUrl": null,
+      "videoUrl": null,
+      "thumbnailUrl": null
+    },
+    "metadata": {
+      "extractedVia": "Gemini_3.1_Pro",
+      "poemPdfPath": "/uploads/poem_band-rahega_f5685f.pdf",
+      "sourcePageRange": "4-4",
+      "sourceFile": "ahsr112.pdf"
+    },
+    "uiColor": "#5cc74f"
+  },
+  {
+    "id": "poem_hum-padhte-hain_2162li",
+    "title": "हम पढ़ते हैं",
+    "urlTitle": "hum-padhte-hain",
+    "text": "मेरे बस्ते के भीतर है,\nऔर मेज़ पर धरी हुई,\nहम पढ़ते हैं, तुम पढ़ते हो,\nतस्वीरों से भरी हुई।",
+    "shortSummary": "A poetic riddle describing a picture-filled book kept inside a schoolbag or on a table.",
+    "tags": [
+      "riddle",
+      "book",
+      "school",
+      "rhyme"
+    ],
+    "language": "Hindi",
+    "status": "draft",
+    "writer": "श्रीप्रसाद",
+    "sourceType": "textbook",
+    "education": {
+      "grade": "Class 1",
+      "board": "NCERT",
+      "bookName": "Sarangi",
+      "year": 2026
+    },
+    "media": {
+      "audioUrl": null,
+      "videoUrl": null,
+      "thumbnailUrl": null
+    },
+    "metadata": {
+      "extractedVia": "Gemini_3.1_Pro",
+      "poemPdfPath": "/uploads/poem_hum-padhte-hain_2162li.pdf",
+      "sourcePageRange": "4-4",
+      "sourceFile": "ahsr112.pdf"
+    },
+    "uiColor": "#def934"
+  },
+  {
+    "id": "poem_kitni-pyari-hai-ye-duniya_85fbeh",
+    "title": "कितनी प्यारी है ये दुनिया",
+    "urlTitle": "kitni-pyari-hai-ye-duniya",
+    "text": "मुझे हवा प्यारी लगती है ... \nऔर सूरज और बारिश भी।\n\nमुझे चिड़ियाँ प्यारी लगती हैं ...\nऔर जानवर और मछलियाँ भी।\n\nमुझे धरती प्यारी लगती है ... \nऔर समुद्र और आसमान भी।\n\nमुझे फूल प्यारे लगते हैं ... \nऔर फल भी।\n\nमुझे अपनी किताबें अच्छी लगती हैं ... \nऔर अपने कपड़े, अपने खिलौने भी।\n\nमुझे माँ और बापू प्यारे लगते हैं... \nऔर अपने भाई और बहन भी।\n\nमुझे सारी दुनिया प्यारी लगती है।",
+    "shortSummary": "A child expresses innocent love and gratitude for everything around them, including nature, animals, belongings, and family.",
+    "tags": [
+      "world",
+      "nature",
+      "gratitude",
+      "family"
+    ],
+    "language": "Hindi",
+    "status": "draft",
+    "writer": "जयंती मनोकरन",
+    "sourceType": "textbook",
+    "education": {
+      "grade": "Class 1",
+      "board": "NCERT",
+      "bookName": "Sarangi",
+      "year": 2026
+    },
+    "media": {
+      "audioUrl": null,
+      "videoUrl": null,
+      "thumbnailUrl": null
+    },
+    "metadata": {
+      "extractedVia": "Gemini_3.1_Pro",
+      "poemPdfPath": "/uploads/poem_kitni-pyari-hai-ye-duniya_85fbeh.pdf",
+      "sourcePageRange": "1-2",
+      "sourceFile": "ahsr118.pdf"
+    },
+    "uiColor": "#e7d194"
+  },
+  {
+    "id": "poem_teen-dost_t90pg9",
+    "title": "तीन दोस्त",
+    "urlTitle": "teen-dost",
+    "text": "बात पुरानी है।\nतब बस तीन ही रंग थे।\nलाल, पीला और नीला!\n\nलाल रहता था हर लज़ीज़ वस्तु में,\nजैसे टमाटर, सेब, चेरी और आलूबुखारे।\n\nपीले ने बनाया था सूरज को चमकदार\nजो मुस्कुराकर देता था रोशनी लगातार।\n\nआसमान भी नीला था और समुंदर भी।\nपेड़ों से टपकती बारिश भी नीली ही थी।\n\nतीनों पक्के दोस्त थे।\nएक दिन उन्होंने कहा, \"हमें और दोस्त चाहिए। चलो नए दोस्त बनाएँ।\"\nऔर वे निकल पड़े दोस्तों की तलाश में।\n\nऔर देखो क्या हुआ!\n\nलाल और पीला साथ चले\nतो एक नया दोस्त मिला — नारंगी।\n\nपीले और नीले ने हाथ मिलाया\nतो एक नया दोस्त मिला — हरा।\n\nलाल और नीले के पास आते ही\nएक नया दोस्त मिला — बैंगनी।\n\nऔर इस तरह उन्होंने दुनिया को बना दिया दोस्ताना और रंगीन।",
+    "shortSummary": "A rhythmic verse about the three primary colors coming together to form new secondary colors, painting a vibrant and friendly world.",
+    "tags": [
+      "colors",
+      "friendship",
+      "learning"
+    ],
+    "language": "Hindi",
+    "status": "draft",
+    "writer": "इंदु हरिकुमार",
+    "sourceType": "textbook",
+    "education": {
+      "grade": "Class 2",
+      "board": "NCERT",
+      "bookName": "Sarangi",
+      "year": 2026
+    },
+    "media": {
+      "audioUrl": null,
+      "videoUrl": null,
+      "thumbnailUrl": null
+    },
+    "metadata": {
+      "extractedVia": "Gemini_3.1_Pro",
+      "poemPdfPath": "/uploads/poem_teen-dost_t90pg9.pdf",
+      "sourcePageRange": "1-2",
+      "sourceFile": "N4.pdf"
+    },
+    "uiColor": "#43b19f"
+  },
+  {
+    "id": "poem_beej_x7fa9x",
+    "title": "बीज",
+    "urlTitle": "beej",
+    "text": "मुझे एक बीज मिला।\nमैंने उसको गमले में डाला।\nमैंने उसे पानी दिया और बहुत सारी धूप।\nक्या यह पेड़ है?\nक्या यह झाड़ी है?\nक्या इसमें फूल होंगे?\nक्या इसमें फल होंगे?\nक्या यह लम्बा ऊँचा होगा?\nक्या यह छोटा ही रहेगा?\nमुझे नहीं पता।\nकोई फ़र्क नहीं पड़ता!",
+    "shortSummary": "A child plants a seed in a pot, wondering what it will grow into, but ultimately realizes it doesn't matter as long as it grows.",
+    "tags": [
+      "seed",
+      "nature",
+      "curiosity",
+      "plants"
+    ],
+    "language": "Hindi",
+    "status": "draft",
+    "writer": "दीपा बलसावर",
+    "sourceType": "textbook",
+    "education": {
+      "grade": "Class 2",
+      "board": "NCERT",
+      "bookName": "Sarangi",
+      "year": 2026
+    },
+    "media": {
+      "audioUrl": null,
+      "videoUrl": null,
+      "thumbnailUrl": null
+    },
+    "metadata": {
+      "extractedVia": "Gemini_3.1_Pro",
+      "poemPdfPath": "/uploads/poem_beej_x7fa9x.pdf",
+      "sourcePageRange": "1-1",
+      "sourceFile": "N8.pdf"
+    },
+    "uiColor": "#27da39"
+  },
+  {
+    "id": "poem_sabse-bada-chhata_d26q2d",
+    "title": "सबसे बड़ा छाता",
+    "urlTitle": "sabse-bada-chhata",
+    "text": "बारिश! झमा-झम बारिश!\nलगातार बारिश!\nछत पर झमा-झम। घर में टप-टप।\nऔर आँगन में… छप-छपाक。\n\nगीला हो गया बिस्तर,\nअम्मा की साड़ी,\nऔर दादी का कंबल।\nगीला और सर्द\nहो गया पूरा शहर。\n\nलेकिन मैं, मेरे पास है छाता。\nछाते के भीतर मैं और सलीम。\nबिलकुल सूखे और गरम。\n\nमैंने छाते में टिल्लू को भी बुलाया。\nअब टिल्लू बिलकुल सूखा。\nमैं और सलीम कुछ गीले-गीले से。\n\nमैंने दयाल चाचू से बड़ा\nछाता माँग लिया。\nअब सब छाते के अंदर。\nफिर लता और मोनू भी आ गए。\nबड़ा छाता पड़ गया छोटा。\n\nदयाल चाचू से और बड़ा छाता\nले आए。\nअब सब छाते के अंदर。\nशलीन और सनत भी आ गए。\nऔर बड़ा छाता पड़ गया छोटा。\n\nदयाल चाचू से बहुत बड़ा\nछाता ले आए。\nअब सब छाते के अंदर。\nसोनू, हामिद, हरमीत सब\nके सब आ गए。\nबहुत बड़ा छाता भी पड़\nगया छोटा。\n\nदयाल चाचू बहुत बड़े छाते से बहुत-बहुत बड़ा छाता दो।\nदयाल चाचू ने कहा— इससे बड़ा छाता तो बनता ही नहीं।\nबड़ा होकर मैं दुनिया का सबसे बड़ा छाता बनाऊँगा।\nआसमान जितना बड़ा! जो बारिश में पूरे शहर को छुपा लेगा।\nटिल्लू, सलीम, अम्मा, चाचू, राकेश, हामिद, हरमीत, शलीन\nऔर सनत सब होंगे छाते के भीतर। सूखे और गरम。\n\nबारिश! झमा-झम बारिश!\nघर में टप-टपा\nऔर आँगन में… छप-छपाक।",
+    "shortSummary": "A child imagines having an umbrella big enough to cover all their friends and eventually the entire city from the rain.",
+    "tags": [
+      "rain",
+      "umbrella",
+      "friends",
+      "imagination"
+    ],
+    "language": "Hindi",
+    "status": "draft",
+    "writer": "मनोज कुमार",
+    "sourceType": "textbook",
+    "education": {
+      "grade": "Class 2",
+      "board": "NCERT",
+      "bookName": "Sarangi",
+      "year": 2026
+    },
+    "media": {
+      "audioUrl": null,
+      "videoUrl": null,
+      "thumbnailUrl": null
+    },
+    "metadata": {
+      "extractedVia": "Gemini_3.1_Pro",
+      "poemPdfPath": "/uploads/poem_sabse-bada-chhata_d26q2d.pdf",
+      "sourcePageRange": "1-3",
+      "sourceFile": "N13.pdf"
+    },
+    "uiColor": "#f21d54"
+  },
+  {
+    "id": "poem_paheli_0az26b",
+    "title": "पहेली",
+    "urlTitle": "paheli",
+    "text": "तोते का प्यारा खाना है,\nलेकिन मेरी सी-सी है,\nइसका उत्तर दे सकते हो,\nयह तो बात ज़रा-सी है।\n\nचलती ही रहती है हरदम,\nदिन हो, चाहे रात,\nटिक-टिक-टिक बोला करती,\nकहती है कुछ बात।",
+    "shortSummary": "Two short poetic riddles about a chilli and a ticking clock.",
+    "tags": [
+      "riddle",
+      "rhyme",
+      "puzzle"
+    ],
+    "language": "Hindi",
+    "status": "draft",
+    "writer": "श्रीप्रसाद",
+    "sourceType": "textbook",
+    "education": {
+      "grade": "Class 2",
+      "board": "NCERT",
+      "bookName": "Sarangi",
+      "year": 2026
+    },
+    "media": {
+      "audioUrl": null,
+      "videoUrl": null,
+      "thumbnailUrl": null
+    },
+    "metadata": {
+      "extractedVia": "Gemini_3.1_Pro",
+      "poemPdfPath": "/uploads/poem_paheli_0az26b.pdf",
+      "sourcePageRange": "6-6",
+      "sourceFile": "N13.pdf"
+    },
+    "uiColor": "#f0ec79"
+  },
+  {
+    "id": "poem_chaand-ki-roti_vjrbva",
+    "title": "चाँद की रोटी",
+    "urlTitle": "chaand-ki-roti",
+    "text": "चाँद की रोटी,\nपानी में आई,\nमछली फिर भी,\nखा न पाई।",
+    "shortSummary": "A short verse about a fish unable to eat the moon's reflection in the water, which looks like a piece of bread.",
+    "tags": [
+      "moon",
+      "fish",
+      "imagination",
+      "nature"
+    ],
+    "language": "Hindi",
+    "status": "draft",
+    "writer": "मोहम्मद साजिद खान",
+    "sourceType": "textbook",
+    "education": {
+      "grade": "Class 2",
+      "board": "NCERT",
+      "bookName": "Sarangi",
+      "year": 2026
+    },
+    "media": {
+      "audioUrl": null,
+      "videoUrl": null,
+      "thumbnailUrl": null
+    },
+    "metadata": {
+      "extractedVia": "Gemini_3.1_Pro",
+      "poemPdfPath": "/uploads/poem_chaand-ki-roti_vjrbva.pdf",
+      "sourcePageRange": "2-2",
+      "sourceFile": "P12.pdf"
+    },
+    "uiColor": "#f0903f"
+  },
+  {
+    "id": "poem_paheli_mq9ea6",
+    "title": "पहेली",
+    "urlTitle": "paheli",
+    "text": "काली भूरी नीली है,\nलाल गुलाबी पीली है,\nबरखा से यही बचाती है,\nधूप नहीं आ पाती है।\nरहती है सिर के ऊपर,\nफैली रहती है तन कर,\nसुंदर सी है, जानो तुम,\nअपने सिर पर तानो तुम।\n\nऊपर देखो उड़ा जा रहा,\nमुड़ा जा रहा अब ये,\nलेकिन वापस भी आएगा,\nमगर न जानें कब ये।\nआसमान में उड़ जाता है,\nडैने कितने भारी,\nक्या चिड़िया है,\nअरे नहीं, यह काफ़ी बड़ी सवारी।",
+    "shortSummary": "Two poetic riddles, the first describing a colorful umbrella and the second an airplane flying high in the sky.",
+    "tags": [
+      "riddles",
+      "umbrella",
+      "airplane",
+      "rhyme"
+    ],
+    "language": "Hindi",
+    "status": "draft",
+    "writer": "श्रीप्रसाद",
+    "sourceType": "textbook",
+    "education": {
+      "grade": "Class 2",
+      "board": "NCERT",
+      "bookName": "Sarangi",
+      "year": 2026
+    },
+    "media": {
+      "audioUrl": null,
+      "videoUrl": null,
+      "thumbnailUrl": null
+    },
+    "metadata": {
+      "extractedVia": "Gemini_3.1_Pro",
+      "poemPdfPath": "/uploads/poem_paheli_mq9ea6.pdf",
+      "sourcePageRange": "7-7",
+      "sourceFile": "P13.pdf"
+    },
+    "uiColor": "#b96998"
+  },
+  {
+    "id": "poem_boojho-to-janen_qlu36v",
+    "title": "बूझो तो जानें",
+    "urlTitle": "boojho-to-janen",
+    "text": "हरे वस्‍त्र और लाल चोंच है,\nरटना जिसका काम।\nकुतर-कुतरकर फल खाता है,\nलेता हरि का नाम।\n\nकंठ सुरीला, रंग से काली,\nसबके मन को भाती।\nबैठ पेड़ की डाल पर,\nजो सबको गीत सुनाती।\n\nबड़े सवेरे घर की छत पर,\nमिलता गाँव-गाँव।\nकाले रंग का पक्षी होता,\nकरता काँव-काँव।",
+    "shortSummary": "A set of fun poetic riddles describing common birds like the parrot, cuckoo, and crow.",
+    "tags": [
+      "riddles",
+      "birds",
+      "animals"
+    ],
+    "language": "Hindi",
+    "status": "draft",
+    "writer": "Unknown",
+    "sourceType": "textbook",
+    "education": {
+      "grade": "Class 3",
+      "board": "NCERT",
+      "bookName": "Veena",
+      "year": 2026
+    },
+    "media": {
+      "audioUrl": null,
+      "videoUrl": null,
+      "thumbnailUrl": null
+    },
+    "metadata": {
+      "extractedVia": "Gemini_3.1_Pro",
+      "poemPdfPath": "/uploads/poem_boojho-to-janen_qlu36v.pdf",
+      "sourcePageRange": "8-8",
+      "sourceFile": "P3.pdf"
+    },
+    "uiColor": "#b45583"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  // ==========================================
+  // POEMJOY FIRESTORE DATA SCHEMA
+  // ==========================================
+  
+  // REQUIRED FIELDS
+  "title": "तितली रानी",
+  "urlTitle": "titli-rani", // URL-safe slug for routing (e.g. /poems/titli-rani)
+  "text": "तितली रानी, तितली रानी...", // Full poem text
+  "language": "Hindi", // Human-readable language (e.g., Hindi, English)
+  "status": "published", // Can be 'draft' or 'published'
+  "writer": "Unknown", // Author of the poem
+  "sourceType": "textbook", // Can be 'original', 'textbook', 'book', 'other'
+
+  // OPTIONAL TOP-LEVEL FIELDS
+  "shortSummary": "A fun poem about a beautiful butterfly.", // Short preview for UI cards
+  "tags": ["nature", "animals", "kids"], // For filtering and search
+
+  // EDUCATIONAL METADATA (Optional)
+  // Highly recommended when sourceType is 'textbook' or 'book'
+  "education": {
+    "grade": "Class 1",
+    "board": "NCERT",
+    "bookName": "Rimjhim",
+    "year": 2023
+  },
+
+  // MEDIA LINKS (Optional)
+  // Store references to Google Cloud Storage (gs://) or public HTTPS urls
+  "media": {
+    "audioUrl": null,
+    "videoUrl": null,
+    "thumbnailUrl": null
+  },
+
+  // INTERNAL ADMIN METADATA
+  // Typically system-managed, not user-editable
+  "metadata": {
+    "extractedVia": "Gemini_PDF_Upload" // e.g., 'Manual_Upload', 'Gemini_PDF_Upload'
+    // "createdAt": "timestamp" // (Usually added automatically by the database trigger)
+  }
+}
