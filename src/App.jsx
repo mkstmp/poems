@@ -18,7 +18,7 @@ function App() {
   const [filterPanelOpen, setFilterPanelOpen] = useState(false);
 
   useEffect(() => {
-    fetch('http://localhost:3001/api/published')
+    fetch('/api/published')
       .then(res => res.json())
       .then(data => { setPoems(data.poems || []); setIsLoading(false); })
       .catch(() => setIsLoading(false));
@@ -26,7 +26,12 @@ function App() {
 
   const languages = useMemo(() => ['All', ...new Set(poems.map(p => p.language).filter(Boolean))], [poems]);
   const grades    = useMemo(() => ['All', ...new Set(poems.map(p => p.education?.grade).filter(Boolean))], [poems]);
-  const allTags   = useMemo(() => { const t = poems.flatMap(p => p.tags || []); return ['All', ...new Set(t)]; }, [poems]);
+  const popularTags = useMemo(() => {
+    const counts = {};
+    poems.forEach(p => (p.tags || []).forEach(t => counts[t] = (counts[t] || 0) + 1));
+    const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]).map(e => e[0]).slice(0, 15);
+    return ['All', ...sorted];
+  }, [poems]);
 
   const filteredPoems = useMemo(() => poems.filter(poem => {
     const q = searchQuery.toLowerCase();
@@ -114,7 +119,7 @@ function App() {
           <div className="poem-source-info">
             <span>📖 {selectedPoem.education?.bookName} · {selectedPoem.education?.board}</span>
             {selectedPoem.metadata?.poemPdfPath && (
-              <a href={`http://localhost:3001${selectedPoem.metadata.poemPdfPath}`} target="_blank" rel="noreferrer" className="source-link">
+              <a href={selectedPoem.metadata.poemPdfPath} target="_blank" rel="noreferrer" className="source-link">
                 📄 View Source PDF
               </a>
             )}
@@ -190,9 +195,9 @@ function App() {
                     </div>
                   </div>
                   <div className="filter-row">
-                    <span className="fdrop-label">Topics</span>
+                    <span className="fdrop-label">Popular Topics</span>
                     <div className="fdrop-chips">
-                      {allTags.map(tag => (
+                      {popularTags.map(tag => (
                         <button key={tag} className={`fdrop-chip ${activeTag === tag ? 'fdrop-chip-active tag' : ''}`}
                           onClick={() => setActiveTag(tag)}>{tag}</button>
                       ))}

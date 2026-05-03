@@ -30,7 +30,7 @@ function Admin() {
   const fetchDrafts = async () => {
     setIsLoadingDrafts(true);
     try {
-      const response = await fetch('http://localhost:3001/api/drafts');
+      const response = await fetch('/api/drafts');
       const data = await response.json();
       setDrafts(data.drafts || []);
     } catch (error) {
@@ -56,7 +56,7 @@ function Admin() {
     formData.append('forceOverwrite', forceOverwrite.toString());
 
     try {
-      const response = await fetch('http://localhost:3001/api/ingest', {
+      const response = await fetch('/api/ingest', {
         method: 'POST',
         body: formData,
       });
@@ -78,7 +78,7 @@ function Admin() {
 
   const handlePublish = async (draftId) => {
     try {
-      await fetch(`http://localhost:3001/api/drafts/${draftId}/publish`, { method: 'POST' });
+      await fetch(`/api/drafts/${draftId}/publish`, { method: 'POST' });
       // Remove from UI
       setDrafts(drafts.filter(d => d.id !== draftId));
       setPublishStatus("✅ Poem published successfully!");
@@ -92,7 +92,7 @@ function Admin() {
   const handleReject = async (draftId) => {
     if (!window.confirm("Are you sure you want to delete this draft?")) return;
     try {
-      const response = await fetch(`http://localhost:3001/api/drafts/${draftId}`, { method: 'DELETE' });
+      const response = await fetch(`/api/drafts/${draftId}`, { method: 'DELETE' });
       if (!response.ok) throw new Error("Server rejected deletion");
       
       // Remove from UI
@@ -205,7 +205,7 @@ function Admin() {
                 <p style={{ fontSize: '0.9rem', color: 'var(--color-text-light)', margin: 0 }}>Extracted via: {draft.metadata.extractedVia}</p>
                 {draft.metadata.poemPdfPath && (
                   <a 
-                    href={`http://localhost:3001${draft.metadata.poemPdfPath}`} 
+                    href={draft.metadata.poemPdfPath} 
                     target="_blank" 
                     rel="noreferrer"
                     style={{ fontSize: '0.85rem', background: '#e3f2fd', color: '#1565c0', padding: '0.3rem 0.6rem', borderRadius: '4px', fontWeight: 'bold' }}

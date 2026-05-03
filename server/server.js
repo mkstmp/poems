@@ -21,10 +21,13 @@ app.use(cors({
 }));
 app.use(express.json());
 
+// Data directory handling for Cloud Run FUSE mount
+const DATA_DIR = process.env.DATA_DIR || process.cwd();
+
 // Setup Multer for file uploads
-const uploadDir = path.join(process.cwd(), 'uploads');
+const uploadDir = path.join(DATA_DIR, 'uploads');
 if (!fs.existsSync(uploadDir)) {
-  fs.mkdirSync(uploadDir);
+  fs.mkdirSync(uploadDir, { recursive: true });
 }
 
 // Serve the uploads directory statically so React can link to the PDFs
@@ -40,8 +43,14 @@ const storage = multer.diskStorage({
 });
 const upload = multer({ storage: storage });
 
+// Ensure server directory exists if using FUSE
+const serverDataDir = path.join(DATA_DIR, 'server');
+if (!fs.existsSync(serverDataDir)) {
+  fs.mkdirSync(serverDataDir, { recursive: true });
+}
+
 // Database files
-const draftsFilePath = path.join(process.cwd(), 'server', 'drafts.json');
+const draftsFilePath = path.join(serverDataDir, 'drafts.json');
 
 // Helper to read drafts
 const getDrafts = () => {
@@ -57,7 +66,7 @@ const saveDrafts = (drafts) => {
   fs.writeFileSync(draftsFilePath, JSON.stringify(drafts, null, 2), 'utf8');
 };
 
-const processedFilePath = path.join(process.cwd(), 'server', 'processed_files.json');
+const processedFilePath = path.join(serverDataDir, 'processed_files.json');
 const getProcessedFiles = () => {
   if (!fs.existsSync(processedFilePath)) return {};
   return JSON.parse(fs.readFileSync(processedFilePath, 'utf8') || '{}');
@@ -66,7 +75,7 @@ const saveProcessedFiles = (registry) => {
   fs.writeFileSync(processedFilePath, JSON.stringify(registry, null, 2), 'utf8');
 };
 
-const publishedFilePath = path.join(process.cwd(), 'server', 'published.json');
+const publishedFilePath = path.join(serverDataDir, 'published.json');
 const getPublished = () => {
   if (!fs.existsSync(publishedFilePath)) return [];
   return JSON.parse(fs.readFileSync(publishedFilePath, 'utf8') || '[]');
@@ -379,7 +388,15 @@ app.delete('/api/drafts/:id', (req, res) => {
   }
 });
 
-const PORT = 3001;
+// Serve React frontend (static files)
+app.use(express.static(path.join(process.cwd(), 'dist')));
+
+// Catch-all route for React Router (must be AFTER all other API routes)
+app.get('*path', (req, res) => {
+  res.sendFile(path.join(process.cwd(), 'dist', 'index.html'));
+});
+
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`🚀 Local Extraction Server running on http://localhost:${PORT}`);
   if (!apiKey) {
