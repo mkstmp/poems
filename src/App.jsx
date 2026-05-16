@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
+import Fuse from 'fuse.js';
 import './App.css';
 import PoemCard from './components/PoemCard';
 import MediaPlayer from './components/MediaPlayer';
@@ -33,18 +34,30 @@ function App() {
     return ['All', ...sorted];
   }, [poems]);
 
-  const filteredPoems = useMemo(() => poems.filter(poem => {
-    const q = searchQuery.toLowerCase();
-    const matchesSearch = !q
-      || poem.title?.toLowerCase().includes(q)
-      || poem.writer?.toLowerCase().includes(q)
-      || poem.shortSummary?.toLowerCase().includes(q)
-      || poem.tags?.some(t => t.toLowerCase().includes(q));
-    return matchesSearch
-      && (activeLanguage === 'All' || poem.language === activeLanguage)
+  const fuse = useMemo(() => new Fuse(poems, {
+    keys: [
+      { name: 'title',             weight: 3 },
+      { name: 'urlTitle',          weight: 3 },
+      { name: 'writer',            weight: 2 },
+      { name: 'tags',              weight: 2 },
+      { name: 'shortSummary',      weight: 1 },
+      { name: 'education.grade',   weight: 1 },
+      { name: 'language',          weight: 1 },
+    ],
+    threshold: 0.4,      // 0.0 = exact only, 1.0 = match anything; 0.4 tolerates typos/alternate spellings
+    ignoreLocation: true, // match anywhere in the string, not just near the start
+    minMatchCharLength: 2,
+  }), [poems]);
+
+  const filteredPoems = useMemo(() => {
+    const q = searchQuery.trim();
+    const searched = q ? fuse.search(q).map(r => r.item) : poems;
+    return searched.filter(poem =>
+      (activeLanguage === 'All' || poem.language === activeLanguage)
       && (activeTag === 'All'      || poem.tags?.includes(activeTag))
-      && (activeGrade === 'All'    || poem.education?.grade === activeGrade);
-  }), [poems, searchQuery, activeLanguage, activeTag, activeGrade]);
+      && (activeGrade === 'All'    || poem.education?.grade === activeGrade)
+    );
+  }, [poems, fuse, searchQuery, activeLanguage, activeTag, activeGrade]);
 
   const clearFilters = () => { setSearchQuery(''); setActiveLanguage('All'); setActiveTag('All'); setActiveGrade('All'); };
   const hasActiveFilters = searchQuery || activeLanguage !== 'All' || activeTag !== 'All' || activeGrade !== 'All';
